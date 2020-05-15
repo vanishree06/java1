@@ -38,8 +38,8 @@ class cityPanel extends JPanel
 {
 cityPanel()
 {
-JButton jb=new JButton("Mangaluru");
-JButton jb1=new JButton("Moodbidri");
+JButton jb=new JButton("City1");
+JButton jb1=new JButton("City2");
 jb.addActionListener(new ActionListener()
 {
 public void actionPerformed(ActionEvent ae)
@@ -64,8 +64,8 @@ class colorPanel extends JPanel
 {
 colorPanel()
 {
-JCheckBox jb=new JCheckBox("Red");
-JCheckBox jb1=new JCheckBox("yellow");
+JCheckBox jb=new JCheckBox("Color1");
+JCheckBox jb1=new JCheckBox("Color2");
 jb.addItemListener(new ItemListener()
 {
 public void itemStateChanged(ItemEvent ie)
